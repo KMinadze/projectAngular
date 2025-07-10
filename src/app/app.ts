@@ -9,6 +9,8 @@ import { Component } from '@angular/core';
 export class App {
   protected title = 'hw_02';
 
+  public myAge: number = 15
+
     public i: number = 0;
 
     public images: string[] = [
@@ -23,6 +25,15 @@ export class App {
   decrease(){
     this.i--
   }
+
+  
+
+  public colors: any = ["blue", "brown", "yellow", "red", "darkgreen"] 
   
   
 }
+
+
+// colors.forEach( (item) => {
+
+// } )
